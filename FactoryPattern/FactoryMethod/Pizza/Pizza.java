@@ -1,4 +1,4 @@
-package FactoryPattern.NonAbstract.Pizza;
+package FactoryPattern.FactoryMethod.Pizza;
 
 import java.util.ArrayList;
 

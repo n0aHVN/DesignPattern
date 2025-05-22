@@ -1,6 +1,6 @@
-package FactoryPattern.NonAbstract.PizzaStore;
+package FactoryPattern.FactoryMethod.PizzaStore;
 
-import FactoryPattern.NonAbstract.Pizza.Pizza;
+import FactoryPattern.FactoryMethod.Pizza.Pizza;
 
 public abstract class PizzaStore{
     public Pizza orderPizza(String type){
@@ -11,6 +11,6 @@ public abstract class PizzaStore{
         pizza.box();
         return pizza;
     }
-    
+    //This is Factory Method
     abstract protected Pizza createPizza(String type);
 }

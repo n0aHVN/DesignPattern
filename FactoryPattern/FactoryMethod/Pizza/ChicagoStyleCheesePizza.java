@@ -1,4 +1,4 @@
-package FactoryPattern.NonAbstract.Pizza;
+package FactoryPattern.FactoryMethod.Pizza;
 public class ChicagoStyleCheesePizza extends Pizza {
     public ChicagoStyleCheesePizza() {
         name = "Chicago Style Deep Dish Cheese Pizza";

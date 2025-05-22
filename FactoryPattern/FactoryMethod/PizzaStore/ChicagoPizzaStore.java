@@ -1,8 +1,8 @@
-package FactoryPattern.NonAbstract.PizzaStore;
+package FactoryPattern.FactoryMethod.PizzaStore;
 
-import FactoryPattern.NonAbstract.Pizza.ChicagoStyleCheesePizza;
-import FactoryPattern.NonAbstract.Pizza.ChicagoStylePepperoniPizza;
-import FactoryPattern.NonAbstract.Pizza.Pizza;
+import FactoryPattern.FactoryMethod.Pizza.ChicagoStyleCheesePizza;
+import FactoryPattern.FactoryMethod.Pizza.ChicagoStylePepperoniPizza;
+import FactoryPattern.FactoryMethod.Pizza.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     @Override

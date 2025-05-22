@@ -1,4 +1,4 @@
-package FactoryPattern.NonAbstract.Pizza;
+package FactoryPattern.FactoryMethod.Pizza;
 
 public class ChicagoStylePepperoniPizza extends Pizza {
     public ChicagoStylePepperoniPizza() {

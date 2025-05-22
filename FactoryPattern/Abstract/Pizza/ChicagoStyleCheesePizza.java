@@ -1,10 +1,7 @@
 package FactoryPattern.Abstract.Pizza;
 
 import FactoryPattern.Abstract.Ingredients.ChicagoPizzaIngredientFactory;
-import FactoryPattern.Abstract.Ingredients.PizzaIngredientFactory;
-
 public class ChicagoStyleCheesePizza extends Pizza {
-    PizzaIngredientFactory ingredientFactory;
     public ChicagoStyleCheesePizza() {
         name = "Chicago Style Deep Dish Cheese Pizza";
         ingredientFactory = new ChicagoPizzaIngredientFactory();

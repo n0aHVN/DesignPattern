@@ -1,10 +1,8 @@
 package FactoryPattern.Abstract.Pizza;
 
 import FactoryPattern.Abstract.Ingredients.NYPizzaIngredientFactory;
-import FactoryPattern.Abstract.Ingredients.PizzaIngredientFactory;
 
 public class NYStylePepperoniPizza extends Pizza {
-    PizzaIngredientFactory ingredientFactory;
     public NYStylePepperoniPizza(){
         this.name = "NYStylePepperoniPizza";
         this.ingredientFactory = new NYPizzaIngredientFactory();
