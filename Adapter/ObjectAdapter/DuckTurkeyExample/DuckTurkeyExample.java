@@ -10,7 +10,8 @@ public class DuckTurkeyExample {
     public static void main(String[] args) {
         Duck duck = new MallardDuck();
         Turkey turkey = new WildTurkey();
-        TurkeyAdapter turkeyAdapter = new TurkeyAdapter(turkey);
+        // turkeyAdapter is an adapter that allows a Turkey to be used as a Duck
+        Duck turkeyAdapter = new TurkeyAdapter(turkey);
         System.out.println("Testing Duck");
         testDuck(duck);
         System.out.println("\n\n");
