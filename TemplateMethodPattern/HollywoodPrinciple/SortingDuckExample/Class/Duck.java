@@ -1,4 +1,4 @@
-package TemplateMethodPattern.HollywoodPrinciple.Class;
+package TemplateMethodPattern.HollywoodPrinciple.SortingDuckExample.Class;
 
 public class Duck implements Comparable<Duck> {
     String name;

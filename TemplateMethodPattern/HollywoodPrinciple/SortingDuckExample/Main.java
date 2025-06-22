@@ -1,7 +1,8 @@
-package TemplateMethodPattern.HollywoodPrinciple;
+package TemplateMethodPattern.HollywoodPrinciple.SortingDuckExample;
 import java.util.Arrays;
 
-import TemplateMethodPattern.HollywoodPrinciple.Class.Duck;
+import TemplateMethodPattern.HollywoodPrinciple.SortingDuckExample.Class.Duck;
+
 
 public class Main {
     public static void main(String[] args) {
