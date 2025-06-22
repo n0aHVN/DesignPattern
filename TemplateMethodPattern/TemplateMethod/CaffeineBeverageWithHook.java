@@ -1,4 +1,4 @@
-package TemplateMethodPattern;
+package TemplateMethodPattern.TemplateMethod;
 
 public abstract class CaffeineBeverageWithHook {
 

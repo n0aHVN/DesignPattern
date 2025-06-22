@@ -1,4 +1,4 @@
-package TemplateMethodPattern;
+package TemplateMethodPattern.TemplateMethod;
 
 import java.util.Scanner;
 

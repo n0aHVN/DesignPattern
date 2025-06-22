@@ -1,4 +1,4 @@
-package TemplateMethodPattern;
+package TemplateMethodPattern.TemplateMethod;
 
 public class BeverageTestDrive {
     public static void main(String[] args) {
