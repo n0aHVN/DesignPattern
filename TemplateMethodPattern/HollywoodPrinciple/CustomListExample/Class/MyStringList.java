@@ -17,7 +17,7 @@ public class MyStringList extends AbstractList<String> {
     public int size() {
         return myList.length;
     }
-
+    
     @Override
     public String set(int index, String item) {
         String oldString = myList[index];
