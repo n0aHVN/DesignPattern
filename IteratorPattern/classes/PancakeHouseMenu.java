@@ -2,9 +2,11 @@ package IteratorPattern.classes;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PancakeHouseMenu {
+import IteratorPattern.iterators.Iterator;
+import IteratorPattern.iterators.PancakeHouseMenuIterator;
+
+public class PancakeHouseMenu{
     List<MenuItem> items;
-    
     public PancakeHouseMenu(){
         this.items = new ArrayList<>();
         addItem("Pancake Breakfast", "Pancakes with scrambled eggs, and toast", true, 2.99);
@@ -19,7 +21,9 @@ public class PancakeHouseMenu {
         MenuItem menuItem = new MenuItem(name, description, vegetarian, price);
         items.add(menuItem);
     }
-
+    public Iterator createIterator(){
+        return new PancakeHouseMenuIterator(items);
+    }
 
     
 }
