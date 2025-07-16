@@ -1,5 +1,8 @@
 package IteratorPattern.classes;
 
+import IteratorPattern.iterators.Iterator;
+import IteratorPattern.iterators.DinnerMenuIterator;
+
 public class DinnerMenu {
     MenuItem[] items;
     int numberOfItems = 0;
@@ -24,5 +27,9 @@ public class DinnerMenu {
     }
     public MenuItem[] getItems() {
         return items;
+    }
+
+    public Iterator createIterator(){
+        return new DinnerMenuIterator(this.items);
     }
 }
