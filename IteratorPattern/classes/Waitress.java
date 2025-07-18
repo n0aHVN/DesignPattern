@@ -26,10 +26,17 @@ public class Waitress {
             System.out.println(item.getDescription());
         }
     }
-    public void printVegetarianMenu(){
-
+    public void printVegetarianMenu(Iterator iteartor){
+        while (iteartor.hasNext()){
+            MenuItem item = iteartor.next();
+            if (item.vegetarian){
+                System.out.print(item.getName()+ ", ");
+                System.out.print(item.getName()+ " -- ");
+                System.out.println(item.getDescription());
+            }
+        }
     }
-    public void isItemVegetarian(){
-        
+    public void isItemVegetarian(MenuItem item){
+        System.out.println(item.vegetarian);
     }
 }
