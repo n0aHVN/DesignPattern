@@ -5,6 +5,7 @@ import FactoryPattern.FactoryMethod.Pizza.NYStylePepperoniPizza;
 import FactoryPattern.FactoryMethod.Pizza.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
+    //This is a factory method
     @Override
     public Pizza createPizza(String type) {
         switch (type) {
